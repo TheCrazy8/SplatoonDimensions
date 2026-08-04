@@ -17,7 +17,7 @@ const dismiss = () => {
 <template>
   <div v-if="show" class="announcement-banner" role="banner" aria-label="Site announcement">
     <div class="announcement-content">
-      <span>🔥 Welcome to Blaze & Company! Check out our latest BrightOS features →</span>
+      <span>Hi There</span>
       <button @click="dismiss" class="dismiss-btn" aria-label="Dismiss announcement">✕</button>
     </div>
   </div>
