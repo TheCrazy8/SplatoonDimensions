@@ -132,9 +132,9 @@ export default {
     codeblocksFold({ route, frontmatter });
     giscusTalk({
       repo: 'TheCrazy8/SplatoonDimensions',
-      repoId: 'R_kgDOQnFglg',           // Get from https://giscus.app/
+      repoId: 'R_kgDOTuCp2g',           // Get from https://giscus.app/
       category: 'General',
-      categoryId: 'DIC_kwDOQnFgls4C062n',    // Get from https://giscus.app/
+      categoryId: 'DIC_kwDOTuCp2s4DCrY6',    // Get from https://giscus.app/
       mapping: 'pathname',
       inputPosition: 'top',
       lang: 'en',
