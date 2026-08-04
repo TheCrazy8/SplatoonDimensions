@@ -61,6 +61,8 @@ function updateMouse(event) {
 }
 
 function resizeCanvas() {
+  if (!canvas || !ctx) return
+
   const pixelRatio = window.devicePixelRatio || 1
 
   canvas.width = window.innerWidth * pixelRatio
@@ -75,19 +77,22 @@ function resizeCanvas() {
 function createTailParticles(speedX, speedY) {
   const speed = Math.hypot(speedX, speedY)
 
-  // Create more particles while the comet is moving quickly.
-  const particleCount = Math.min(8, Math.max(2, Math.ceil(speed / 2)))
+  const particleCount = Math.min(
+    8,
+    Math.max(2, Math.ceil(speed / 2))
+  )
 
   for (let i = 0; i < particleCount; i++) {
     particles.push({
       x: cometX + (Math.random() - 0.5) * 6,
       y: cometY + (Math.random() - 0.5) * 6,
 
-      // Move particles slightly opposite the comet's direction.
-      velocityX: -speedX * (Math.random() * 0.25 + 0.05) +
+      velocityX:
+        -speedX * (Math.random() * 0.25 + 0.05) +
         (Math.random() - 0.5) * 0.8,
 
-      velocityY: -speedY * (Math.random() * 0.25 + 0.05) +
+      velocityY:
+        -speedY * (Math.random() * 0.25 + 0.05) +
         (Math.random() - 0.5) * 0.8,
 
       size: Math.random() * 5 + 2,
@@ -96,10 +101,33 @@ function createTailParticles(speedX, speedY) {
     })
   }
 
-  // Prevent the particle array from becoming excessively large.
   if (particles.length > 800) {
     particles.splice(0, particles.length - 800)
   }
+}
+
+function mixColor(colorA, colorB, amount) {
+  return colorA.map((value, index) =>
+    Math.round(value + (colorB[index] - value) * amount)
+  )
+}
+
+function getTailColor(life) {
+  const paleYellow = [255, 250, 190]
+  const lightBlue = [125, 210, 255]
+  const darkBlue = [20, 45, 130]
+
+  // New particles closest to the head:
+  // pale yellow fading into light blue.
+  if (life > 0.55) {
+    const amount = (1 - life) / 0.45
+    return mixColor(paleYellow, lightBlue, amount)
+  }
+
+  // Older particles farther down the tail:
+  // light blue fading into dark blue.
+  const amount = (0.55 - life) / 0.55
+  return mixColor(lightBlue, darkBlue, amount)
 }
 
 function drawCometHead() {
@@ -109,21 +137,21 @@ function drawCometHead() {
     0,
     cometX,
     cometY,
-    24
+    26
   )
 
-  glow.addColorStop(0, 'rgba(255, 255, 255, 1)')
-  glow.addColorStop(0.15, 'rgba(255, 245, 180, 1)')
-  glow.addColorStop(0.4, 'rgba(255, 167, 38, 0.8)')
-  glow.addColorStop(0.7, 'rgba(255, 69, 0, 0.35)')
-  glow.addColorStop(1, 'rgba(255, 69, 0, 0)')
+  glow.addColorStop(0, 'rgba(255, 255, 230, 1)')
+  glow.addColorStop(0.18, 'rgba(255, 250, 190, 1)')
+  glow.addColorStop(0.45, 'rgba(180, 230, 255, 0.8)')
+  glow.addColorStop(0.75, 'rgba(90, 160, 235, 0.35)')
+  glow.addColorStop(1, 'rgba(40, 80, 180, 0)')
 
   ctx.fillStyle = glow
   ctx.beginPath()
-  ctx.arc(cometX, cometY, 24, 0, Math.PI * 2)
+  ctx.arc(cometX, cometY, 26, 0, Math.PI * 2)
   ctx.fill()
 
-  ctx.fillStyle = 'rgba(255, 255, 235, 1)'
+  ctx.fillStyle = 'rgba(255, 255, 225, 1)'
   ctx.beginPath()
   ctx.arc(cometX, cometY, 4, 0, Math.PI * 2)
   ctx.fill()
@@ -148,6 +176,7 @@ function drawParticles() {
     }
 
     const radius = Math.max(0.1, particle.size)
+    const [red, green, blue] = getTailColor(particle.life)
 
     const gradient = ctx.createRadialGradient(
       particle.x,
@@ -160,22 +189,17 @@ function drawParticles() {
 
     gradient.addColorStop(
       0,
-      `rgba(255, 255, 220, ${particle.life})`
+      `rgba(${red}, ${green}, ${blue}, ${particle.life})`
     )
 
     gradient.addColorStop(
-      0.25,
-      `rgba(255, 190, 60, ${particle.life * 0.9})`
-    )
-
-    gradient.addColorStop(
-      0.6,
-      `rgba(255, 69, 0, ${particle.life * 0.45})`
+      0.35,
+      `rgba(${red}, ${green}, ${blue}, ${particle.life * 0.7})`
     )
 
     gradient.addColorStop(
       1,
-      'rgba(255, 69, 0, 0)'
+      `rgba(${red}, ${green}, ${blue}, 0)`
     )
 
     ctx.fillStyle = gradient
@@ -192,13 +216,19 @@ function drawParticles() {
 }
 
 function animate() {
-  ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
+  if (!ctx || !canvas) return
+
+  ctx.clearRect(
+    0,
+    0,
+    window.innerWidth,
+    window.innerHeight
+  )
 
   if (initialized) {
     const previousX = cometX
     const previousY = cometY
 
-    // Smoothly chase the cursor.
     cometX += (mouseX - cometX) * 0.28
     cometY += (mouseY - cometY) * 0.28
 
@@ -211,8 +241,6 @@ function animate() {
     }
 
     ctx.save()
-
-    // Makes overlapping particles glow more brightly.
     ctx.globalCompositeOperation = 'lighter'
 
     drawParticles()
