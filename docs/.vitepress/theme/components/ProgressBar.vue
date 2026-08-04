@@ -40,7 +40,7 @@ onUnmounted(() => {
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, #ff4500, #ffa726);
+  background: linear-gradient(90deg, #cd3b86, #2962eb);
   transition: width 0.1s ease;
   box-shadow: 0 0 10px rgba(255, 69, 0, 0.5);
 }
