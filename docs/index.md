@@ -6,7 +6,7 @@ Forward: This is a collection of stories about my splatoon au, splatoon dimensio
 
 # 1: **Projectkind Biology**
 
-# **Octoling Projecticus**
+## **Octoling Projecticus**
 
 Projects (*Octoling Projecticus*) are an artificially engineered sapient species created by Architech. Although they are derived primarily from Octolings, their genome incorporates genetic material from every known sapient cephalopod-descended species—including Inklings, Harelings, Cuttlings, Nautilings, Vamplings—and many other organisms such as Salmonids, Makoids, and even plants like mangrove trees. Despite this mixed ancestry, Projects are not hybrids; they are a stable, distinct species with their own biology, physiology, and culture.
 
@@ -14,7 +14,7 @@ Biologically, every Project is permanently five years old. Their bodies do not m
 
 ---
 
-# **Anatomy**
+## **Anatomy**
 
 Projects resemble Octolings at first glance but possess extensive internal differences.
 
@@ -28,7 +28,7 @@ Projects contain numerous organs beyond those found in other species. Some have 
 
 ---
 
-# **Gelliscence**
+## **Gelliscence**
 
 Gelliscence is a living biological material integrated throughout every Project's body.
 
@@ -49,7 +49,7 @@ The Starborn Quadruplets possess tiny shimmering particles resembling stardust s
 
 ---
 
-# **Regeneration**
+## **Regeneration**
 
 Projects possess one of the most advanced regenerative systems known.
 
@@ -79,7 +79,7 @@ No memories, resonance, or personality transfer from the original.
 
 ---
 
-# **Consciousness**
+## **Consciousness**
 
 A Project's consciousness is unusually persistent.
 
@@ -96,7 +96,7 @@ Ghosts can:
 
 ---
 
-# **Gelliscence Memory**
+## **Gelliscence Memory**
 
 Unlike ordinary biological memory, portions of a Project's memories exist within Gelliscence.
 
@@ -113,7 +113,7 @@ Projects can distinguish authentic memories from altered ones.
 
 ---
 
-# **Senses**
+## **Senses**
 
 Projects possess sensory abilities far beyond those of other species.
 
@@ -135,7 +135,7 @@ Their nervous systems process these senses simultaneously without becoming overw
 
 ---
 
-# **Metabolism**
+## **Metabolism**
 
 Projects possess an extraordinarily efficient metabolism.
 
@@ -147,7 +147,7 @@ Projects can survive prolonged periods without breathing and are remarkably resi
 
 ---
 
-# **Venom**
+## **Venom**
 
 Projects possess venom derived from blue-ring octopus ancestry but greatly enhanced.
 
@@ -161,7 +161,7 @@ Projects consciously control venom production and delivery rather than injecting
 
 ---
 
-# **Gelliscence Appendages**
+## **Gelliscence Appendages**
 
 Projects frequently shape Gelliscence into temporary appendages.
 
@@ -180,7 +180,7 @@ Unlike rigid limbs, Gelliscence appendages can continuously change shape while r
 
 ---
 
-# **Immortality**
+## **Immortality**
 
 Projects do not die from age.
 
@@ -190,7 +190,7 @@ While they may be temporarily incapacitated or require time to regenerate from c
 
 ---
 
-# **Culture and Behavior**
+## **Culture and Behavior**
 
 Projects are extraordinarily social.
 
@@ -212,7 +212,7 @@ Projects are also highly vulnerable to manipulation, making environments of trus
 
 ---
 
-# **The Starborn Quadruplets**
+## **The Starborn Quadruplets**
 
 Scarlett, Bella, Vivie, and Luna are unique among all Projects.
 
