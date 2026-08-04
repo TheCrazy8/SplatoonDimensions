@@ -1,36 +1,53 @@
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
+
+const containerRef = ref(null)
+let animationFrameId = null
 
 onMounted(() => {
-  createParticles()
+  createCometTrail()
 })
 
-function createParticles() {
-  const container = document.querySelector('.fire-particles')
+function createCometTrail() {
+  const container = containerRef.value
   if (!container) return
   
-  setInterval(() => {
-    const particle = document.createElement('div')
-    particle.className = 'particle'
-    particle.style.left = Math.random() * 100 + '%'
-    particle.style.animationDuration = (Math.random() * 3 + 2) + 's'
-    particle.style.opacity = Math.random() * 0.5 + 0.3
-    container.appendChild(particle)
+  let mouseX = window.innerWidth / 2
+  let mouseY = window.innerHeight / 2
+  
+  document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX
+    mouseY = e.clientY
+  })
+  
+  function animate() {
+    if (Math.random() > 0.7) {
+      const particle = document.createElement('div')
+      particle.className = 'comet-particle'
+      particle.style.left = mouseX + 'px'
+      particle.style.top = mouseY + 'px'
+      particle.style.animationDuration = (Math.random() * 0.8 + 0.5) + 's'
+      container.appendChild(particle)
+      
+      setTimeout(() => particle.remove(), 1000)
+    }
     
-    setTimeout(() => particle.remove(), 5000)
-  }, 300)
+    animationFrameId = requestAnimationFrame(animate)
+  }
+  
+  animate()
 }
 </script>
 
 <template>
-  <div class="fire-particles"></div>
+  <div ref="containerRef" class="comet-trail"></div>
 </template>
 
 <style scoped>
-.fire-particles {
+.comet-trail {
   position: fixed;
   top: 0;
-  left:  0;
+  left: 0;
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -38,25 +55,26 @@ function createParticles() {
   overflow: hidden;
 }
 
-.particle {
+.comet-particle {
   position: absolute;
-  bottom: -10px;
-  width: 4px;
-  height: 4px;
-  background: radial-gradient(circle, #ff4500, #ffa726);
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #ffffff, #00d4ff);
   border-radius: 50%;
-  animation:  rise linear infinite;
-  box-shadow: 0 0 10px rgba(255, 69, 0, 0.8);
+  animation: comet-fade linear forwards;
+  box-shadow: 0 0 8px rgba(0, 212, 255, 0.8), 0 0 16px rgba(0, 212, 255, 0.4);
+  filter: blur(0.5px);
+  transform: translate(-50%, -50%);
 }
 
-@keyframes rise {
+@keyframes comet-fade {
   0% {
-    transform: translateY(0) scale(1);
     opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
   }
   100% {
-    transform: translateY(-100vh) scale(0);
     opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
   }
 }
 </style>
