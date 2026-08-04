@@ -21,9 +21,6 @@ import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-in
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 export default withMermaid(defineConfig({
-  ignoreDeadLinks: [
-    /\/blog\/feed\.(xml|atom)$/
-  ],
   markdown: {
     lineNumbers: true,
     config(md) {
