@@ -1,0 +1,93 @@
+name: Build and Release Launcher
+
+on:
+  workflow_dispatch:  # Manual trigger only for launcher updates
+  push:
+    tags:
+      - 'launcher-v*'  # Trigger on launcher version tags like launcher-v1.0.0
+
+permissions:
+  contents: write  # Required for creating releases and uploading assets
+
+jobs:
+  build-launcher:
+    runs-on: windows-latest  # Use Windows to build .exe with icon
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyinstaller
+      
+      - name: Build launcher executable
+        run: python build_launcher.py
+      
+      - name: Get version
+        id: get_version
+        shell: bash
+        run: |
+          if ${{ startsWith(github.ref, 'refs/tags/launcher-v') }}; then
+            VERSION=${GITHUB_REF#refs/tags/launcher-}
+          else
+            VERSION="launcher-dev-$(date +'%Y%m%d-%H%M%S')"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BrightOS-Launcher
+          path: dist/BrightOS-Launcher.exe
+      
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.get_version.outputs.version }}
+          name: BrightOS Launcher ${{ steps.get_version.outputs.version }}
+          draft: false
+          prerelease: ${{ !startsWith(github.ref, 'refs/tags/launcher-v') }}
+          files: |
+            dist/BrightOS-Launcher.exe
+          body: |
+            ## BrightOS Launcher ${{ steps.get_version.outputs.version }}
+            
+            ### Download
+            Download `BrightOS-Launcher.exe` from the assets below.
+            
+            ### What is the Launcher?
+            The BrightOS Launcher is a standalone executable that:
+            - ✅ Automatically downloads/updates BrightOS Python files from GitHub
+            - ✅ Installs missing Python dependencies
+            - ✅ Creates all necessary directories
+            - ✅ Runs BrightOS
+            
+            ### How to Use
+            1. Download `BrightOS-Launcher.exe`
+            2. Run it - that's it! The launcher handles everything else
+            
+            ### First Time Setup
+            When you run the launcher for the first time, it will:
+            1. Create directories in `%USERPROFILE%\AppData\Local\BrightOS\`
+            2. Download the latest BrightOS Python files
+            3. Install required dependencies
+            4. Launch BrightOS
+            
+            ### Updates
+            To update BrightOS in the future, just run the launcher again. It will automatically check for and download updates.
+            
+            ### Requirements
+            - Windows 10 or later
+            - No Python installation required (included in the launcher)
+            - Internet connection (for downloading updates)
+          make_latest: ${{ startsWith(github.ref, 'refs/tags/launcher-v') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

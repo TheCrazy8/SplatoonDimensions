@@ -1,0 +1,67 @@
+name: Release BrightOS
+
+on:
+  push:
+    tags:
+      - 'v*'  # Trigger on version tags like v1.0.0, v1.2.3, etc.
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: write  # Required for creating releases and uploading assets
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Get version
+        id: get_version
+        shell: bash
+        run: |
+          if ${{ startsWith(github.ref, 'refs/tags/') }}; then
+            VERSION=${GITHUB_REF#refs/tags/}
+          else
+            VERSION="dev-$(date +'%Y%m%d-%H%M%S')"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Create Release
+        id: create_release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.get_version.outputs.version }}
+          name: BrightOS ${{ steps.get_version.outputs.version }}
+          draft: false
+          prerelease: false
+          files: |
+            BrightOS.py
+            requirements.txt
+            build.py
+          body: |
+            ## BrightOS Release ${{ steps.get_version.outputs.version }}
+            
+            ### Download
+            This release contains the Python files for BrightOS. Use the **BrightOS-Launcher.exe** to automatically download and run this version.
+            
+            ### For Launcher Users
+            Simply run `BrightOS-Launcher.exe` and it will automatically download this version.
+            
+            ### Manual Installation
+            If you want to run BrightOS manually without the launcher:
+            1. Download `BrightOS.py` and `requirements.txt`
+            2. Install dependencies: `pip install -r requirements.txt`
+            3. Run: `python BrightOS.py`
+            
+            ### What's Included
+            - `BrightOS.py` - Main application file
+            - `requirements.txt` - Python dependencies
+            - `build.py` - Build script for creating standalone executable
+            
+            ### Requirements
+            - Python 3.11 or later (not needed if using the launcher)
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

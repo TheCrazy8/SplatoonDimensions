@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+node_modules
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/search-index.json
+docs/dev-dist
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Arduino secrets (WiFi credentials)
+arduino_secrets.h

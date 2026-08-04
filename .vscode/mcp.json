@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "blaze-docs": {
+      "type": "http",
+      "url": "http://localhost:4000/mcp",
+      "tools": ["search_vitepress_docs"]
+    }
+  }
+}

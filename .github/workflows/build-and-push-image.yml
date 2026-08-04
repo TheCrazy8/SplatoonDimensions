@@ -1,0 +1,55 @@
+# Build + push Docker image to GHCR
+# Fix: avoid using the unsupported expression function `toLower()` by creating
+# lowercased owner/repo values in a shell step and exposing them via GITHUB_ENV.
+name: Build and publish Docker image
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU (optional, for multi-arch)
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate lowercased image names
+        # Use a shell step to lowercase owner/repo (toLower() is not available in some runners)
+        run: |
+          OWNER=$(echo "${GITHUB_REPOSITORY}" | cut -d'/' -f1 | tr '[:upper:]' '[:lower:]')
+          REPO=$(echo "${GITHUB_REPOSITORY}" | cut -d'/' -f2 | tr '[:upper:]' '[:lower:]')
+          echo "OWNER=${OWNER}" >> $GITHUB_ENV
+          echo "REPO=${REPO}" >> $GITHUB_ENV
+          echo "IMAGE=ghcr.io/${OWNER}/${REPO}:${GITHUB_SHA}" >> $GITHUB_ENV
+          echo "IMAGE_LATEST=ghcr.io/${OWNER}/${REPO}:latest" >> $GITHUB_ENV
+
+      - name: Build and push image
+        uses: docker/build-push-action@v4
+        with:
+          context: ./server
+          push: true
+          platforms: linux/amd64
+          tags: |
+            ${{ env.IMAGE_LATEST }}
+            ${{ env.IMAGE }}
