@@ -19,7 +19,6 @@ import {
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 import { InlineLinkPreviewElementTransform } from '@nolebase/vitepress-plugin-inline-link-preview/markdown-it'
 import { withMermaid } from 'vitepress-plugin-mermaid'
-import { generateFeeds } from './theme/rss.js'  // ✅ FIXED:  Removed space
 
 export default withMermaid(defineConfig({
   ignoreDeadLinks: [
@@ -63,103 +62,6 @@ export default withMermaid(defineConfig({
       message: "Released under the CC BY-NC-ND 4.0 License.",
       copyright: "Copyright © 2025-present TheCrazy8",
     },
-    
-    // NAV WITH DROPDOWNS
-    nav: [
-      { 
-        text: '🏠 Getting Started',
-        items: [
-          { text: '🏡 Home', link: '/' },
-          { text: '🔑 Key Resources', link: '/key' },
-          { text: '🛠 Products', link: '/products' },
-          { text: '❓ FAQ', link: '/faq' },
-        ]
-      },
-      { 
-        text: '🔥 BrightOS',
-        items:  [
-          { text: '🌐 Web Interface', link: '/brightos-web' },
-          { text: '📖 Tutorials', link: '/tutorials' },
-          { text:  '📚 Script Examples', link: '/examples' },
-          { text: '📥 Downloads', link: '/downloads' },
-          { text: '🏗️ Build Guide', link: '/BUILD' },
-        ]
-      },
-      { 
-        text:  '👨‍💻 Development',
-        items: [
-          { text: '📖 Development Guide', link: '/development-guide' },
-          { text: '🤖 MCP Server Setup', link: '/MCP_SETUP' },
-          { text:  '📜 Changelog', link: '/changelog' },
-          { text: '👥 Team', link: '/team' },
-        ]
-      },
-      { 
-        text: '🌟 Community',
-        items:  [
-          { text: '📝 Blog', link: '/blog/' },
-          { text: '🎨 Community Showcase', link: '/community-showcase' },
-          { text: '💬 GitHub Discussions', link: 'https://github.com/TheCrazy8/SplatoonDimensions/discussions' },
-          { text: '📡 RSS Feed', link: '/blog/feed.xml' },
-          { text: '⚛️ Atom Feed', link: '/blog/feed.atom' },
-        ]
-      },
-      { 
-        text: '🏅 Competition',
-        items: [
-          { text: '🔥 FLARE Competition', link: '/FLARE Competition' },
-        ]
-      },
-    ],
-    
-    sidebar: [
-      {
-        text: 'Getting Started',
-        collapsed: false,
-        items: [
-          { text: 'Home', link: '/' },
-          { text: 'Key Resources', link: '/key' },
-          { text: 'Products', link: '/products' },
-          { text: 'FAQ', link: '/faq' },
-        ]
-      },
-      {
-        text: 'BrightOS',
-        collapsed: false,
-        items: [
-          { text: 'Web Interface', link: '/brightos-web' },
-          { text: 'Tutorials', link: '/tutorials' },
-          { text: 'Script Examples', link: '/examples' },
-          { text: 'Downloads', link: '/downloads' },
-          { text: 'Build Guide', link: '/BUILD' },
-        ]
-      },
-      {
-        text: 'Development',
-        collapsed: false,
-        items: [
-          { text: 'Development Guide', link:  '/development-guide' },
-          { text: 'MCP Server Setup', link: '/MCP_SETUP' },
-          { text: 'Changelog', link: '/changelog' },
-          { text: 'Team', link: '/team' },
-        ]
-      },
-      {
-        text: 'Community',
-        collapsed: false,
-        items: [
-          { text: 'Blog', link: '/blog/' },
-          { text: 'Community Showcase', link: '/community-showcase' },
-        ]
-      },
-      {
-        text: 'Competition',
-        collapsed: false,
-        items: [
-          { text: 'FLARE Competition', link:  '/FLARE Competition' },
-        ]
-      }
-    ],
     
     outline: {
       level: [2, 3],
@@ -205,8 +107,6 @@ export default withMermaid(defineConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/SplatoonDimensions/favicon.ico' }],
     ['link', { rel: 'apple-touch-icon', href: '/SplatoonDimensions/icon-192x192.png' }],
-    ['link', { rel:  'alternate', type: 'application/rss+xml', title: 'BrightOS Blog RSS', href: '/SplatoonDimensions/blog/feed.xml' }],
-    ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'BrightOS Blog Atom', href: '/SplatoonDimensions/blog/feed.atom' }],
     ['meta', { name: 'theme-color', content: '#ff4500' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name:  'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
