@@ -30,7 +30,7 @@ import { ref, onMounted } from 'vue'
 
 const CACHE_KEY = 'blaze-contributors-cache'
 const CACHE_DURATION_MS = 3600000 // 1 hour
-const CONTRIBUTORS_URL = 'https://api.github.com/repos/TheCrazy8/Blaze-Official/contributors'
+const CONTRIBUTORS_URL = 'https://api.github.com/repos/TheCrazy8/SplatoonDimensions/contributors'
 
 const contributors = ref([])
 

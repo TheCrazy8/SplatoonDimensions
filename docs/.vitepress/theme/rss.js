@@ -5,7 +5,7 @@ import matter from 'gray-matter'
 
 export async function generateFeeds(config) {
   // Use the site config for base URL
-  const baseUrl = config.site?.base || '/Blaze-And-Company-Official/'
+  const baseUrl = config.site?.base || '/SplatoonDimensions/'
   const siteUrl = 'https://thecrazy8.github.io' + baseUrl.replace(/\/$/, '')
   const blogUrl = `${siteUrl}/blog`
 

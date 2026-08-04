@@ -43,12 +43,12 @@ export default withMermaid(defineConfig({
       md.use(InlineLinkPreviewElementTransform)
     }
   },
-  title: "Blaze Official",
-  description: "The Blaze official site.",
-  base: "/Blaze-Official/",
+  title: "SplatoonDimensions",
+  description: "The SplatoonDimensions site.",
+  base: "/SplatoonDimensions/",
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/TheCrazy8/Blaze-Official/edit/main/docs/:path',
+      pattern: 'https://github.com/TheCrazy8/SplatoonDimensions/edit/main/docs/:path',
       text: '✏️ Edit this page'
     },
 
@@ -58,7 +58,7 @@ export default withMermaid(defineConfig({
     },
 
     externalLinkIcon: false,
-    siteTitle: "Blaze",
+    siteTitle: "SplatoonDimensions",
     footer: {
       message: "Released under the CC BY-NC-ND 4.0 License.",
       copyright: "Copyright © 2025-present TheCrazy8",
@@ -99,7 +99,7 @@ export default withMermaid(defineConfig({
         items:  [
           { text: '📝 Blog', link: '/blog/' },
           { text: '🎨 Community Showcase', link: '/community-showcase' },
-          { text: '💬 GitHub Discussions', link: 'https://github.com/TheCrazy8/Blaze-Official/discussions' },
+          { text: '💬 GitHub Discussions', link: 'https://github.com/TheCrazy8/SplatoonDimensions/discussions' },
           { text: '📡 RSS Feed', link: '/blog/feed.xml' },
           { text: '⚛️ Atom Feed', link: '/blog/feed.atom' },
         ]
@@ -198,21 +198,21 @@ export default withMermaid(defineConfig({
     },
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/TheCrazy8/Blaze-Official' }
+      { icon: 'github', link: 'https://github.com/TheCrazy8/SplatoonDimensions' }
     ],
   },
   
   head: [
-    ['link', { rel: 'icon', type: 'image/x-icon', href: '/Blaze-Official/favicon.ico' }],
-    ['link', { rel: 'apple-touch-icon', href: '/Blaze-Official/icon-192x192.png' }],
-    ['link', { rel:  'alternate', type: 'application/rss+xml', title: 'BrightOS Blog RSS', href: '/Blaze-Official/blog/feed.xml' }],
-    ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'BrightOS Blog Atom', href: '/Blaze-Official/blog/feed.atom' }],
+    ['link', { rel: 'icon', type: 'image/x-icon', href: '/SplatoonDimensions/favicon.ico' }],
+    ['link', { rel: 'apple-touch-icon', href: '/SplatoonDimensions/icon-192x192.png' }],
+    ['link', { rel:  'alternate', type: 'application/rss+xml', title: 'BrightOS Blog RSS', href: '/SplatoonDimensions/blog/feed.xml' }],
+    ['link', { rel: 'alternate', type: 'application/atom+xml', title: 'BrightOS Blog Atom', href: '/SplatoonDimensions/blog/feed.atom' }],
     ['meta', { name: 'theme-color', content: '#ff4500' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name:  'apple-mobile-web-app-status-bar-style', content: 'black-translucent' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:site_name', content: 'Blaze' }],
-    ['meta', { property: 'og:image', content: '/Blaze-Official/og-image.png' }],
+    ['meta', { property: 'og:site_name', content: 'SplatoonDimensions' }],
+    ['meta', { property: 'og:image', content: '/SplatoonDimensions/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
   
@@ -223,7 +223,7 @@ export default withMermaid(defineConfig({
   vite: {
     plugins: [
       GitChangelog({
-        repoURL: () => 'https://github.com/TheCrazy8/Blaze-Official',
+        repoURL: () => 'https://github.com/TheCrazy8/SplatoonDimensions',
       }),
       GitChangelogMarkdownSection(),
       groupIconVitePlugin(),
@@ -232,67 +232,67 @@ export default withMermaid(defineConfig({
         registerType: 'autoUpdate',
         includeAssets: ['favicon.ico', '*.png'],
         manifest: {
-          name: 'Blaze Official',
-          short_name: 'Blaze',
-          description: 'Arduino modular program - Official documentation and resources',
+          name: 'SplatoonDimensions',
+          short_name: 'SplatoonDimensions',
+          description: 'SplatoonDimensions - Official documentation and resources',
           theme_color:  '#ff4500',
           background_color: '#ffffff',
           display: 'standalone',
-          scope: '/Blaze-Official/',
-          start_url:  '/Blaze-Official/',
+          scope: '/SplatoonDimensions/',
+          start_url:  '/SplatoonDimensions/',
           icons: [
             {
-              src: '/Blaze-Official/icon-48x48.png',
+              src: '/SplatoonDimensions/icon-48x48.png',
               sizes: '48x48',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-72x72.png',
+              src: '/SplatoonDimensions/icon-72x72.png',
               sizes: '72x72',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-96x96.png',
+              src: '/SplatoonDimensions/icon-96x96.png',
               sizes: '96x96',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-128x128.png',
+              src: '/SplatoonDimensions/icon-128x128.png',
               sizes: '128x128',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-144x144.png',
+              src: '/SplatoonDimensions/icon-144x144.png',
               sizes: '144x144',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-152x152.png',
+              src: '/SplatoonDimensions/icon-152x152.png',
               sizes: '152x152',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-192x192.png',
+              src: '/SplatoonDimensions/icon-192x192.png',
               sizes: '192x192',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-256x256.png',
+              src: '/SplatoonDimensions/icon-256x256.png',
               sizes: '256x256',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-384x384.png',
+              src: '/SplatoonDimensions/icon-384x384.png',
               sizes: '384x384',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-512x512.png',
+              src: '/SplatoonDimensions/icon-512x512.png',
               sizes: '512x512',
               type: 'image/png'
             },
             {
-              src: '/Blaze-Official/icon-512x512.png',
+              src: '/SplatoonDimensions/icon-512x512.png',
               sizes: '512x512',
               type: 'image/png',
               purpose: 'any maskable'
@@ -302,37 +302,37 @@ export default withMermaid(defineConfig({
             {
               name: 'BrightOS Web',
               short_name: 'Web Interface',
-              url: '/Blaze-Official/brightos-web',
+              url: '/SplatoonDimensions/brightos-web',
               description: 'Run BrightOS in browser',
-              icons: [{ src: '/Blaze-Official/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Tutorials',
               short_name: 'Tutorials',
-              url: '/Blaze-Official/tutorials',
+              url: '/SplatoonDimensions/tutorials',
               description: 'Step-by-step guides',
-              icons: [{ src: '/Blaze-Official/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Examples',
               short_name: 'Examples',
-              url: '/Blaze-Official/examples',
+              url: '/SplatoonDimensions/examples',
               description:  'View example scripts',
-              icons: [{ src: '/Blaze-Official/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Downloads',
               short_name: 'Downloads',
-              url: '/Blaze-Official/downloads',
+              url: '/SplatoonDimensions/downloads',
               description: 'Download plugins and scripts',
-              icons: [{ src: '/Blaze-Official/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src: '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
             },
             {
               name: 'Blog',
               short_name: 'Blog',
-              url: '/Blaze-Official/blog/',
+              url: '/SplatoonDimensions/blog/',
               description: 'Read latest updates',
-              icons: [{ src:  '/Blaze-Official/icon-192x192.png', sizes: '192x192' }]
+              icons: [{ src:  '/SplatoonDimensions/icon-192x192.png', sizes: '192x192' }]
             }
           ]
         },

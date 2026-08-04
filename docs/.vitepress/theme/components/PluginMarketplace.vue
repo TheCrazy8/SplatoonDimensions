@@ -53,7 +53,7 @@ const fetchPlugins = async () => {
   try {
     // Fetch directly from GitHub repository (always up-to-date)
     console.log('Loading plugins from GitHub...')
-    const githubUrl = 'https://raw.githubusercontent.com/TheCrazy8/Blaze-And-Company-Official/main/docs/public/plugins-cache.json'
+    const githubUrl = 'https://raw.githubusercontent.com/TheCrazy8/SplatoonDimensions/main/docs/public/plugins-cache.json'
     const cacheResponse = await fetch(githubUrl)
     
     if (cacheResponse.ok) {

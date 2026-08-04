@@ -2,7 +2,7 @@
   <div v-if="loaded" class="status-badges">
     <a
       class="status-badge"
-      href="https://github.com/TheCrazy8/Blaze-Official"
+      href="https://github.com/TheCrazy8/SplatoonDimensions"
       target="_blank"
       rel="noopener noreferrer"
       title="GitHub Stars"
@@ -12,7 +12,7 @@
     </a>
     <a
       class="status-badge"
-      href="https://github.com/TheCrazy8/Blaze-Official/network/members"
+      href="https://github.com/TheCrazy8/SplatoonDimensions/network/members"
       target="_blank"
       rel="noopener noreferrer"
       title="GitHub Forks"
@@ -22,7 +22,7 @@
     </a>
     <a
       class="status-badge"
-      href="https://github.com/TheCrazy8/Blaze-Official/issues"
+      href="https://github.com/TheCrazy8/SplatoonDimensions/issues"
       target="_blank"
       rel="noopener noreferrer"
       title="Open Issues"
@@ -36,9 +36,9 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const CACHE_KEY = 'blaze-repo-stats-cache'
+const CACHE_KEY = 'splatoondimensions-repo-stats-cache'
 const CACHE_DURATION_MS = 3600000 // 1 hour
-const REPO_URL = 'https://api.github.com/repos/TheCrazy8/Blaze-Official'
+const REPO_URL = 'https://api.github.com/repos/TheCrazy8/SplatoonDimensions'
 
 const stars = ref(0)
 const forks = ref(0)

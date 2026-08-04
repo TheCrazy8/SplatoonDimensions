@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Blaze Official
+title: SplatoonDimensions
 hero:
-  name: Blaze
+  name: SplatoonDimensions
   text: Your official home for resources, news, and key links.
   tagline: Stay up to date with everything to do with the Blaze robotics framework.
   actions:
@@ -32,7 +32,7 @@ hero:
       link: /development-guide
     - theme: alt
       text: GitHub Repo
-      link: https://github.com/TheCrazy8/Blaze-Official
+      link: https://github.com/TheCrazy8/SplatoonDimensions
 features:
   - title: 🔑 Quick Links
     details: Jump straight to the most important resources and docs for BrightOS.

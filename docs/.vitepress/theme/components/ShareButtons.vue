@@ -6,7 +6,7 @@ const { site } = useData()
 const route = useRoute()
 
 const currentUrl = computed(() => {
-  return 'https://thecrazy8.github.io/Blaze-And-Company-Official' + route.path
+  return 'https://thecrazy8.github.io/SplatoonDimensions' + route.path
 })
 
 const pageTitle = computed(() => {

@@ -148,7 +148,7 @@ async function fetchCommits() {
 
   try {
     const response = await githubFetch(
-      `https://api.github.com/repos/TheCrazy8/Blaze-And-Company-Official/commits?per_page=${perPage}&page=${page.value}`
+      `https://api.github.com/repos/TheCrazy8/SplatoonDimensions/commits?per_page=${perPage}&page=${page.value}`
     )
 
     if (!response.ok) {
