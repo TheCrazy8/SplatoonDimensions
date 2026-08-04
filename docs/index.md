@@ -1,6 +1,6 @@
 ---
 name: SPLATOON DIMENSIONS
-outline: [1]
+outline: 1
 ---
 
 Forward: This is a collection of stories about my splatoon au, splatoon dimensions.  It can be read in any order, and will make sense no matter what.
