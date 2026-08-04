@@ -1,5 +1,5 @@
 ---
-name: SPLATOON DIMENSIONS
+title: SPLATOON DIMENSIONS
 outline: 1
 ---
 
