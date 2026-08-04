@@ -1,4 +1,0 @@
-simple-plugin-loader
-sv-ttk
-telemetrix-uno-r4
-pyinstaller
