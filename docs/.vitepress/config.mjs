@@ -113,9 +113,6 @@ export default withMermaid(defineConfig({
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
   ],
   
-  buildEnd: async (config) => {
-    await generateFeeds(config)
-  },
   
   vite: {
     plugins: [
