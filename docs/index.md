@@ -889,3 +889,148 @@ Scarlett is one of the Starborn Quadruplets and enjoys engineering more than alm
 
 ---
 
+# 5: Rain Day
+
+It had started raining sometime during the night.
+
+Not a storm.
+
+Just gentle rain.
+
+Scarlett smiled the moment she heard it.
+
+She pulled the blanket a little higher.
+
+"...Mhm."
+
+Outside, droplets tapped softly against the windows.
+
+Inside, her comfort den glowed with warm amber light.
+
+Rain sounds mixed with quiet white noise, filling the room.
+
+Red rested beside her.
+
+One of her strands, wrapped loosely around her wrist like a bracelet, lazily unwound just enough to pull another pillow closer.
+
+Better.
+
+She settled back into the mountain of blankets.
+
+A soft knock came from one of the little doors connecting her room to Bella's.
+
+"Come in."
+
+Bella poked her head inside.
+
+"You've been awake?"
+
+Scarlett nodded.
+
+"Listening."
+
+Bella smiled.
+
+"I thought you might be."
+
+She climbed into the den without another word.
+
+A few moments later another knock.
+
+Vivie.
+
+Then Luna.
+
+Soon the four sisters were buried beneath blankets so thoroughly that only their faces remained visible.
+
+"...Comfy," Scarlett declared.
+
+"Mhm," Bella agreed.
+
+Vivie giggled.
+
+"I can't move."
+
+"Good," Luna said quietly.
+
+Nobody argued.
+
+Rain continued falling outside.
+
+After several peaceful minutes, Scarlett reached into her pocket dimension.
+
+She rummaged around for a while.
+
+"...Found it."
+
+Out came...
+
+A family-sized box of crayons.
+
+Bella laughed.
+
+"I was wondering where those disappeared to."
+
+"I wasn't."
+
+"You weren't?"
+
+"I forgot."
+
+Vivie accepted a handful of crayons.
+
+Luna found a sketchbook tucked beneath the blankets.
+
+Soon four sisters lay side-by-side, quietly drawing while rain filled the silence between conversations.
+
+Scarlett drew stars.
+
+Bella drew forests.
+
+Vivie somehow turned her entire page into a comic.
+
+Luna drew the rain itself.
+
+Nobody spoke for a long time.
+
+They didn't need to.
+
+Rain was enough.
+
+Eventually Scarlett yawned.
+
+Her rainbow-tipped hair shifted slightly as she curled closer to Bella.
+
+"...Nap?"
+
+"I thought you'd never ask," Bella replied.
+
+Vivie had already fallen asleep.
+
+Luna closed her sketchbook.
+
+The crayons were quietly gathered by one wandering strand.
+
+Another pulled the blankets snugly around everyone.
+
+Outside, Havenfold's forests shimmered beneath the rain.
+
+Inside, four sisters slept peacefully in a nest of blankets, pillows, plushies, and quiet.
+
+There was nowhere else they needed to be.
+
+---
+
+## Context
+
+### Havenfold
+
+Gentle rain is common throughout Havenfold and is enjoyed by many Projects. Quiet rainy days often become opportunities to relax indoors, draw, read, play games, or simply spend time together.
+
+### Scarlett's Comfort Den
+
+Scarlett's comfort den is attached to her bedroom and is roughly the size of a master bedroom. It contains blankets, pillows, plushies, hammocks, cozy chairs, adjustable lighting, and customizable ambient sounds such as rain and white noise. Secret tunnels throughout Havenfold connect to the den, though only Scarlett and those she permits can see or use them.
+
+### The Starborn Quadruplets
+
+Although known throughout Projectkind for their unique celestial biology, Scarlett, Bella, Vivie, and Luna spend much of their time doing ordinary childhood activities together. Building forts, drawing, cuddling during naps, and enjoying quiet rainy afternoons are just as much a part of their lives as their more extraordinary abilities.
