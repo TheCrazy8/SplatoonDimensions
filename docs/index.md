@@ -702,3 +702,187 @@ Vivie still grins mischievously.
 Luna still looks thoughtful.
 
 Their immense appearance never erases the fact that beneath the cosmic display are four sisters who still laugh together, build blanket forts, cuddle during naps, and simply enjoy being kiddos.
+
+---
+
+# 4: First Morning
+
+Morning sunlight drifted through the curtains.
+
+Scarlett yawned.
+
+Her blanket had somehow ended up on the floor again.
+
+"...Oops."
+
+She rolled out of bed, landing with a soft thump onto a mountain of pillows someone had thoughtfully left there.
+
+Probably Bella.
+
+Scarlett smiled.
+
+"Mhm."
+
+She reached toward the blanket.
+
+It was too far away.
+
+Without thinking, the shimmering bracelet around her wrist quietly unraveled.
+
+A thin iridescent strand floated across the room, hooked the blanket, and gently pulled it back.
+
+Scarlett wrapped herself in it again.
+
+"Better."
+
+She stayed there for another minute.
+
+Maybe two.
+
+...
+
+Or ten.
+
+Eventually she climbed to her feet.
+
+The room smelled faintly of lavender and strawberries.
+
+Beyond the window, Havenfold's forest shimmered in the morning light.
+
+Birds chirped somewhere outside.
+
+She stretched.
+
+One strand opened the bedroom door.
+
+Another picked up Red, her favorite plushie.
+
+A ribbon of folly red Gelliscence slipped across the desk to rescue a screwdriver that had rolled underneath it yesterday.
+
+"Found you."
+
+The screwdriver disappeared into her pocket dimension.
+
+Scarlett padded into her personal kitchen.
+
+Today's breakfast required serious thought.
+
+She opened the refrigerator.
+
+"...Appysauce."
+
+Decision made.
+
+While she ate, she looked over the half-finished schematic spread across the table.
+
+The Omni Tank.
+
+Version...
+
+"...Twenty-three?"
+
+No.
+
+Twenty-four.
+
+She crossed out the number and wrote another.
+
+One strand held the paper flat.
+
+Another spun a screwdriver absentmindedly.
+
+Her Gelliscence steadied a tiny circuit board while she soldered one last connection.
+
+Click.
+
+The tiny light blinked green.
+
+"Yay."
+
+Someone knocked gently on the connecting door.
+
+Bella peeked inside.
+
+"You've been awake for almost an hour."
+
+Scarlett blinked.
+
+"...Have I?"
+
+Bella laughed.
+
+"You forgot breakfast again, didn't you?"
+
+Scarlett looked down at the empty applesauce cup.
+
+"...No?"
+
+Bella raised an eyebrow.
+
+"...Maybe."
+
+"You've also been wearing mismatched socks."
+
+Scarlett looked.
+
+"...Oh."
+
+Bella smiled.
+
+"Come on."
+
+Scarlett nodded.
+
+She reached for her watch.
+
+Tiny stars spiraled around her wrist—not because they needed to, but because she'd thought the animation looked pretty.
+
+The watch unfolded into her backpack with a quiet shimmer of galaxies and constellations.
+
+Bella watched patiently.
+
+"You know those effects are completely unnecessary."
+
+Scarlett grinned.
+
+"I know."
+
+"...They're cool."
+
+"They are."
+
+The two sisters stepped into the hallway together.
+
+Before Scarlett closed her bedroom door, she looked back once.
+
+Her room was exactly as she'd left it.
+
+Blankets.
+
+Plushies.
+
+Workbench.
+
+Morning sunlight.
+
+Home.
+
+She smiled.
+
+Then ran after Bella.
+
+---
+
+##Context
+
+###Havenfold
+
+This story takes place in Havenfold, the permanent home of Projectkind. Projects live safely alongside caretakers and other children, free to explore, learn, and simply enjoy being kids. Many Projects customize their rooms extensively, and Scarlett's includes a workshop, personal kitchen, comfort den, balcony, and a network of secret tunnels.
+
+###Project Biology
+
+Projects naturally control Gelliscence and strands as part of their bodies. For Scarlett, using them to retrieve objects, hold tools, or assist with engineering is as ordinary as using her hands.
+
+###Scarlett
+
+Scarlett is one of the Starborn Quadruplets and enjoys engineering more than almost anything else. She often forgets the time while working, loves applesauce ("appysauce"), and decorated the transformation of her Omni Tank with cosmic visual effects simply because she thought they looked pretty.
