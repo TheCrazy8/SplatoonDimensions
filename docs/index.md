@@ -873,16 +873,19 @@ Then ran after Bella.
 
 ---
 
-##Context
+## Context
 
-###Havenfold
+### Havenfold
 
 This story takes place in Havenfold, the permanent home of Projectkind. Projects live safely alongside caretakers and other children, free to explore, learn, and simply enjoy being kids. Many Projects customize their rooms extensively, and Scarlett's includes a workshop, personal kitchen, comfort den, balcony, and a network of secret tunnels.
 
-###Project Biology
+### Project Biology
 
 Projects naturally control Gelliscence and strands as part of their bodies. For Scarlett, using them to retrieve objects, hold tools, or assist with engineering is as ordinary as using her hands.
 
-###Scarlett
+### Scarlett
 
 Scarlett is one of the Starborn Quadruplets and enjoys engineering more than almost anything else. She often forgets the time while working, loves applesauce ("appysauce"), and decorated the transformation of her Omni Tank with cosmic visual effects simply because she thought they looked pretty.
+
+---
+
