@@ -498,3 +498,207 @@ Common features include:
 Every aspect of Havenfold reflects its central philosophy:
 
 **Children deserve safety simply because they are children.**
+
+# 3: the Starborn Quadruplets
+
+The Starborn Quadruplets are instantly recognizable among Projectkind. Even before anyone learns their names, it’s obvious they are sisters. They share the same facial structure, stature, and overall appearance, but each has a distinct color palette and a few unique visual quirks that reflect her individuality.
+
+They are the only Projects ever created in space, born aboard Architech’s Supernova Laboratory during the laboratory’s namesake supernova event. Their biology carries traces of that origin—their Gelliscence and blood contain shimmering particles resembling stardust, and they possess subtle celestial characteristics that no other Projects share.
+
+⸻
+
+Shared Appearance
+
+All four sisters share:
+
+* Biologically five-year-old appearance.
+* Soft, rounded Project facial features.
+* Star-speckled hair that resembles a clear night sky.
+* Bright, expressive eyes.
+* Fully covering inside clothes customized to each sister.
+* Naturally graceful posture despite being energetic children.
+* Tiny shimmering specks of stardust suspended within their Gelliscence and blood.
+* A faint, almost imperceptible glow in darkness.
+
+When standing together, they resemble four stars from the same constellation.
+
+⸻
+
+Scarlett
+
+Ink Color: Folly Red
+
+Scarlett’s hair is a deep folly red that transitions into glowing rainbow tips, making her the only Project—and the only Octoling—with naturally rainbow-tipped hair.
+
+Her star-speckled hair looks as though tiny stars are scattered throughout it.
+
+Other distinguishing traits:
+
+* Rainbow-tipped tentacles softly glow.
+* Warm red eyes.
+* Usually wears her hood.
+* Often smiling or making dramatic expressions.
+* Frequently carrying tools, gadgets, or engineering equipment.
+* Galaxy-patterned inside clothes with folly-red accents.
+
+Even while not Ascended, Scarlett’s strands are always present, though she normally keeps them invisible.
+
+⸻
+
+Bella
+
+Ink Color: Indigo
+
+Bella has deep indigo hair filled with tiny star-like points of light.
+
+Unique quirks:
+
+* Small constellations occasionally become visible across her hair.
+* Calm, observant eyes.
+* Hair reflects faint nebula colors under certain lighting.
+* Carries herself with quiet confidence.
+
+She has perhaps the gentlest expression of the four.
+
+⸻
+
+Vivie
+
+Ink Color: Violet
+
+Vivie’s hair resembles a rich violet night sky.
+
+Unique quirks:
+
+* Hair contains occasional comet-like streaks that slowly drift.
+* Eyes sparkle unusually brightly.
+* Her movements leave tiny fading points of light for a fraction of a second.
+* She almost always looks like she’s about to giggle.
+
+She has the most playful appearance.
+
+⸻
+
+Luna
+
+Ink Color: Silver-blue
+
+Luna’s coloration resembles moonlight.
+
+Unique quirks:
+
+* Hair appears dusted with shimmering silver stars.
+* Certain strands resemble faint spiral galaxies.
+* Her eyes have a subtle reflective glow in darkness.
+* She often appears quietly thoughtful.
+
+She gives the strongest impression of moonlight among the sisters.
+
+⸻
+
+Shared Ascension
+
+When any Starborn Quadruplet Ascends, the transformation is unmistakable.
+
+Unlike ordinary Projects, who develop glowing iridescent strands, the Starborn become something almost cosmic.
+
+Their entire bodies transform into living starfields.
+
+⸻
+
+Body
+
+Their skin becomes translucent darkness filled with:
+
+* stars,
+* nebulae,
+* galaxies,
+* drifting cosmic dust,
+* shimmering constellations.
+
+Instead of simply glowing, it looks as though the universe itself exists beneath their skin.
+
+Their silhouettes remain recognizable, but every movement causes countless stars to shift slowly within them.
+
+⸻
+
+Hair
+
+Each sister’s hair becomes completely iridescent while retaining its individual identity.
+
+Scarlett’s rainbow tips become brilliant streams of shifting color.
+
+Bella’s constellations brighten.
+
+Vivie’s comet trails become luminous ribbons.
+
+Luna’s galaxies slowly rotate through her hair.
+
+All four appear crowned in living starlight.
+
+⸻
+
+Strands
+
+Their strands become dramatically brighter.
+
+Rather than simple iridescent ribbons, they resemble:
+
+* auroras,
+* gravitational filaments,
+* streams of starlight,
+* glowing cosmic ribbons.
+
+Scarlett’s strands are especially distinctive because she already possesses strands in her ordinary state.
+
+⸻
+
+Eyes
+
+Their eyes become intensely luminous.
+
+Rather than simple colored irises, they resemble tiny stars.
+
+When using their abilities, their eyes shine brightly enough to illuminate nearby faces.
+
+⸻
+
+Movement
+
+The Starborn do not simply levitate.
+
+They seem almost unaffected by gravity.
+
+Their movement is effortless, smooth, and silent.
+
+Their cosmic strands trail behind them like the tails of comets.
+
+⸻
+
+Aura
+
+Ordinary Ascended Projects glow.
+
+Starborn Quadruplets radiate a soft celestial light.
+
+Tiny particles resembling stardust drift away from them before fading.
+
+Looking directly at them feels almost like looking into a perfectly clear night sky.
+
+⸻
+
+Emotional Influence
+
+Ascension remains emotionally driven.
+
+Because the Starborn are still children, their expressions remain unmistakably theirs.
+
+Scarlett can still beam excitedly.
+
+Bella still wears her reassuring smile.
+
+Vivie still grins mischievously.
+
+Luna still looks thoughtful.
+
+Their immense appearance never erases the fact that beneath the cosmic display are four sisters who still laugh together, build blanket forts, cuddle during naps, and simply enjoy being kiddos.
