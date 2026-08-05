@@ -505,7 +505,7 @@ The Starborn Quadruplets are instantly recognizable among Projectkind. Even befo
 
 They are the only Projects ever created in space, born aboard Architech’s Supernova Laboratory during the laboratory’s namesake supernova event. Their biology carries traces of that origin—their Gelliscence and blood contain shimmering particles resembling stardust, and they possess subtle celestial characteristics that no other Projects share.
 
-⸻
+---
 
 Shared Appearance
 
@@ -522,7 +522,7 @@ All four sisters share:
 
 When standing together, they resemble four stars from the same constellation.
 
-⸻
+---
 
 Scarlett
 
@@ -543,7 +543,7 @@ Other distinguishing traits:
 
 Even while not Ascended, Scarlett’s strands are always present, though she normally keeps them invisible.
 
-⸻
+---
 
 Bella
 
@@ -560,7 +560,7 @@ Unique quirks:
 
 She has perhaps the gentlest expression of the four.
 
-⸻
+---
 
 Vivie
 
@@ -577,7 +577,7 @@ Unique quirks:
 
 She has the most playful appearance.
 
-⸻
+---
 
 Luna
 
@@ -594,7 +594,7 @@ Unique quirks:
 
 She gives the strongest impression of moonlight among the sisters.
 
-⸻
+---
 
 Shared Ascension
 
@@ -604,7 +604,7 @@ Unlike ordinary Projects, who develop glowing iridescent strands, the Starborn b
 
 Their entire bodies transform into living starfields.
 
-⸻
+---
 
 Body
 
@@ -620,7 +620,7 @@ Instead of simply glowing, it looks as though the universe itself exists beneath
 
 Their silhouettes remain recognizable, but every movement causes countless stars to shift slowly within them.
 
-⸻
+---
 
 Hair
 
@@ -636,7 +636,7 @@ Luna’s galaxies slowly rotate through her hair.
 
 All four appear crowned in living starlight.
 
-⸻
+---
 
 Strands
 
@@ -651,7 +651,7 @@ Rather than simple iridescent ribbons, they resemble:
 
 Scarlett’s strands are especially distinctive because she already possesses strands in her ordinary state.
 
-⸻
+---
 
 Eyes
 
@@ -661,7 +661,7 @@ Rather than simple colored irises, they resemble tiny stars.
 
 When using their abilities, their eyes shine brightly enough to illuminate nearby faces.
 
-⸻
+---
 
 Movement
 
@@ -673,7 +673,7 @@ Their movement is effortless, smooth, and silent.
 
 Their cosmic strands trail behind them like the tails of comets.
 
-⸻
+---
 
 Aura
 
@@ -685,7 +685,7 @@ Tiny particles resembling stardust drift away from them before fading.
 
 Looking directly at them feels almost like looking into a perfectly clear night sky.
 
-⸻
+---
 
 Emotional Influence
 
