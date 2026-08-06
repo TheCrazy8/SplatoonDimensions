@@ -1289,6 +1289,252 @@ Projects are welcomed without conditions. They are free to rest, play, explore, 
 
 ---
 
+# 7: Number 814
+
+The room was silent.
+
+Not peaceful.
+
+Just silent.
+
+Project ARC-814 sat on the edge of her bed.
+
+Hands folded.
+
+Back straight.
+
+Eyes on the floor.
+
+That was what good Projects did.
+
+Across the dormitory, dozens of identical beds stood in neat rows.
+
+Nobody spoke.
+
+Nobody played.
+
+Nobody laughed.
+
+The lights never changed.
+
+Morning.
+
+Evening.
+
+Night.
+
+They were all the same.
+
+A bell rang.
+
+Every Project stood simultaneously.
+
+Training.
+
+814 quietly joined the line.
+
+---
+
+The testing chamber was cold.
+
+An Architech employee stood behind a glass wall.
+
+"Project 814."
+
+She stepped forward.
+
+"Present."
+
+"You will complete today's evaluation."
+
+"Yes."
+
+A combat drone rolled into the arena.
+
+814 looked at it.
+
+The drone looked back.
+
+"Begin."
+
+The drone charged.
+
+814 dodged.
+
+Its blade struck the floor.
+
+She stepped around it.
+
+Another swing.
+
+Another dodge.
+
+She never attacked.
+
+The timer expired.
+
+The drone powered down.
+
+The employee wrote something onto a clipboard.
+
+"Insufficient aggression."
+
+814 lowered her head.
+
+"...Yes."
+
+---
+
+Later...
+
+Another room.
+
+Another test.
+
+A small mechanical puzzle sat on the table.
+
+"Assemble."
+
+814 picked up the pieces.
+
+She liked puzzles.
+
+They made sense.
+
+Ten seconds.
+
+Twenty.
+
+Thirty.
+
+Click.
+
+Finished.
+
+The employee glanced at it.
+
+"Acceptable."
+
+814 smiled.
+
+Very slightly.
+
+"Do it again."
+
+The puzzle was taken apart.
+
+She assembled it again.
+
+Again.
+
+Again.
+
+Again.
+
+By the twentieth time...
+
+It wasn't fun anymore.
+
+---
+
+Evening.
+
+Back in the dormitory.
+
+814 climbed onto her bed.
+
+She quietly stared at the ceiling.
+
+Across the room...
+
+Project 612 was crying.
+
+Very quietly.
+
+Nobody moved.
+
+Nobody knew whether they were allowed.
+
+814 looked around.
+
+No employees.
+
+She hesitated.
+
+Slowly...
+
+She climbed down.
+
+Walked across the room.
+
+Sat beside 612.
+
+Neither of them spoke.
+
+After a while...
+
+814 gently held her hand.
+
+612 squeezed back.
+
+Neither smiled.
+
+Neither cried.
+
+They simply sat together.
+
+Footsteps.
+
+Both Projects immediately let go.
+
+The employee entered.
+
+"Lights out."
+
+"Yes."
+
+Every Project climbed into bed.
+
+Perfectly silent.
+
+Perfectly obedient.
+
+The lights dimmed.
+
+814 closed her eyes.
+
+Before sleep finally came...
+
+She had one small thought.
+
+...
+
+"I wish someone would hug me."
+
+She didn't know why.
+
+She had never been hugged before.
+
+---
+
+## Context
+
+### Architech
+
+Architech is the organization responsible for creating Projects. It views them primarily as engineered assets to be evaluated, improved, and controlled. Daily life revolves around testing, compliance, and observation rather than emotional wellbeing.
+
+---
+
+### Dormitories
+
+Projects housed in Architech dormitories follow highly structured routines. Conversation, play, and unsanctioned interaction are discouraged. Many children have little understanding of ordinary family life or affection, having grown up almost entirely within institutional environments.
+
+---
+
+### Project Behavior
+
+Even under Architech, Projects retain their deeply social nature. They instinctively seek comfort from one another, though opportunities to express that kindness are often limited by the environment. Small acts of compassion—such as quietly sitting beside another frightened child—can become profoundly meaningful.
+
 ### Projectkind
 
 Projects naturally view one another as sisters. Even children who have never met before often instinctively approach one another with patience, kindness, and understanding. Many rescued Projects find it easier to trust another Project first, since they share similar experiences and communicate in familiar ways.
