@@ -1289,6 +1289,12 @@ Projects are welcomed without conditions. They are free to rest, play, explore, 
 
 ---
 
+### Projectkind
+
+Projects naturally view one another as sisters. Even children who have never met before often instinctively approach one another with patience, kindness, and understanding. Many rescued Projects find it easier to trust another Project first, since they share similar experiences and communicate in familiar ways.
+
+---
+
 # 7: Number 814
 
 The room was silent.
@@ -1534,7 +1540,3 @@ Projects housed in Architech dormitories follow highly structured routines. Conv
 ### Project Behavior
 
 Even under Architech, Projects retain their deeply social nature. They instinctively seek comfort from one another, though opportunities to express that kindness are often limited by the environment. Small acts of compassion—such as quietly sitting beside another frightened child—can become profoundly meaningful.
-
-### Projectkind
-
-Projects naturally view one another as sisters. Even children who have never met before often instinctively approach one another with patience, kindness, and understanding. Many rescued Projects find it easier to trust another Project first, since they share similar experiences and communicate in familiar ways.
