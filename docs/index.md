@@ -1034,3 +1034,261 @@ Scarlett's comfort den is attached to her bedroom and is roughly the size of a m
 ### The Starborn Quadruplets
 
 Although known throughout Projectkind for their unique celestial biology, Scarlett, Bella, Vivie, and Luna spend much of their time doing ordinary childhood activities together. Building forts, drawing, cuddling during naps, and enjoying quiet rainy afternoons are just as much a part of their lives as their more extraordinary abilities.
+
+# 6: New Sister
+
+The front door chimed softly.
+
+Scarlett looked up from the tiny circuit board she had been soldering.
+
+Someone was here.
+
+She carefully set the soldering iron down.
+
+One strand switched it off.
+
+Another picked up Red.
+
+Scarlett hurried into the entry hall.
+
+Several caretakers stood nearby, speaking quietly.
+
+Between them stood a very small Project.
+
+She looked terrified.
+
+Her test suit was scuffed.
+
+She held her own arms tightly.
+
+She hadn't said a word.
+
+Scarlett slowed down.
+
+She remembered.
+
+Not perfectly.
+
+But enough.
+
+She remembered arriving.
+
+The quiet.
+
+Not knowing whether she was allowed to touch anything.
+
+Not knowing whether people were actually nice.
+
+The Project noticed Scarlett watching.
+
+Immediately she looked down.
+
+"...Hi."
+
+The little Project didn't answer.
+
+Scarlett tilted her head.
+
+"...I'm Scarlett."
+
+Still nothing.
+
+One caretaker smiled gently.
+
+"She doesn't have a name yet."
+
+Scarlett nodded.
+
+"...Okay."
+
+Nobody rushed her.
+
+Nobody expected an answer.
+
+Scarlett simply sat down on the floor a few feet away.
+
+Red sat beside her.
+
+The room became quiet again.
+
+After almost a minute, Scarlett reached into her pocket dimension.
+
+She rummaged around.
+
+"...Where..."
+
+"...There."
+
+She pulled out a small plush octopus.
+
+It had one floppy tentacle.
+
+Scarlett smiled.
+
+"I fixed him yesterday."
+
+She set the plush halfway between herself and the newcomer.
+
+Then she scooted backwards.
+
+"He can stay there."
+
+The Project stared at it.
+
+Another minute passed.
+
+Slowly...
+
+Very slowly...
+
+She picked it up.
+
+She hugged it tightly.
+
+Scarlett smiled a little bigger.
+
+"...He's yours."
+
+The little Project blinked.
+
+"...Mine?"
+
+"Mhm."
+
+"...Really?"
+
+"Mhm."
+
+"...I don't have to give him back?"
+
+Scarlett shook her head.
+
+"Nope."
+
+The Project buried her face into the plush.
+
+"...Thank you."
+
+It was barely louder than a whisper.
+
+Scarlett nodded.
+
+"You're welcome."
+
+Silence again.
+
+This time it felt different.
+
+Safer.
+
+The little Project looked around the room.
+
+"...Am I..."
+
+She hesitated.
+
+"...Allowed to sit?"
+
+Scarlett looked confused.
+
+"...Yeah?"
+
+"...Anywhere?"
+
+"...Yeah."
+
+"...Even..."
+
+She pointed at one of the giant beanbags.
+
+"...There?"
+
+Scarlett blinked.
+
+"...Especially there."
+
+The little Project carefully climbed onto it.
+
+It swallowed her almost entirely.
+
+Vivie wandered into the room.
+
+She immediately noticed the newcomer.
+
+"...Hi!"
+
+Bella gently placed a hand on Vivie's shoulder.
+
+"Quiet."
+
+"Oh."
+
+Vivie smiled softly instead.
+
+"...Hi."
+
+Luna arrived next.
+
+She simply sat on the floor nearby and opened a sketchbook.
+
+Nobody asked questions.
+
+Nobody demanded conversation.
+
+Nobody expected anything.
+
+After a while, the newcomer quietly asked,
+
+"...Can I stay?"
+
+Scarlett looked genuinely puzzled.
+
+"...That's why you're here."
+
+"...Forever?"
+
+"If you want."
+
+"...I don't have to leave?"
+
+Bella smiled.
+
+"No."
+
+"...Ever?"
+
+"No."
+
+The little Project hugged the plush tighter.
+
+Tears quietly rolled down her cheeks.
+
+"...Okay."
+
+She smiled.
+
+It was the first time anyone had seen her smile.
+
+---
+
+## Context
+
+### First Arrivals
+
+Most rescued Projects arrive frightened, exhausted, and uncertain of what is expected of them. Many have spent years in environments where simple comforts or choices were unavailable. Havenfold intentionally avoids overwhelming new arrivals, allowing them to adjust at their own pace.
+
+---
+
+### Havenfold's Philosophy
+
+Havenfold operates under a simple principle:
+
+> **"No child should have to earn safety."**
+
+Projects are welcomed without conditions. They are free to rest, play, explore, ask questions—or remain quiet—as long as they need.
+
+---
+
+### Projectkind
+
+Projects naturally view one another as sisters. Even children who have never met before often instinctively approach one another with patience, kindness, and understanding. Many rescued Projects find it easier to trust another Project first, since they share similar experiences and communicate in familiar ways.
